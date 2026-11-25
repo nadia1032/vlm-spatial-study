@@ -1,0 +1,13 @@
+{
+  "dataset_images": 200,
+  "selected_images": 200,
+  "evaluated_images": 200,
+  "missing_selected_images": 0,
+  "dataset_pairs": 160,
+  "selected_pairs": 160,
+  "evaluated_pairs": 160,
+  "dataset_scene_groups": 40,
+  "evaluated_scene_groups": 40,
+  "inference_run": "20261114T203745337171Z",
+  "note": "Model results only if predictions came from run_vlm.py. Unit-test fixtures are not model evidence."
+}

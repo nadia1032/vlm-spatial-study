@@ -1,0 +1,12 @@
+metric,value,ci_low,ci_high,n,scene_groups
+pair_accuracy,0.51875,0.3875,0.6564062499999999,160,40
+spatial_pair_accuracy,0.35,0.2,0.5,40,40
+invariant_pair_accuracy,0.575,0.425,0.7333333333333333,120,40
+spatial_sensitivity,0.35,0.2,0.5,40,40
+sensitivity_given_correct_base,0.56,0.36,0.76,25,25
+prediction_invariance,0.925,0.85,0.9833333333333333,120,40
+invariance_given_correct_base,0.92,0.8133333333333334,1.0,75,25
+appropriate_response_rate,0.78125,0.725,0.83125,160,40
+valid_pair_rate,1.0,1.0,1.0,160,40
+image_accuracy,0.63,0.53,0.735,200,40
+valid_answer_rate,1.0,1.0,1.0,200,40

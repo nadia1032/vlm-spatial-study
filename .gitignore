@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# secrets and local settings
+.env
+*.token
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# model weights and caches (not redistributed)
+.cache/
+huggingface/
+hf_cache/
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# archives and pilot runs
+*.zip
+*.rar
+*pilot*/
+
+# outputs created when reproducing
+results/recomputed/
+results/recomputed_comparison.csv
+results/new/
+data/regenerated/

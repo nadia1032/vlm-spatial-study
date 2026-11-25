@@ -1,0 +1,16 @@
+model,category,accuracy,n
+SmolVLM2-500M,base,0.55,40
+SmolVLM2-500M,spatial,0.5,40
+SmolVLM2-500M,brightness,0.55,40
+SmolVLM2-500M,clutter,0.525,40
+SmolVLM2-500M,occlusion,0.6,40
+git-base-vqav2,base,0.5,40
+git-base-vqav2,spatial,0.5,40
+git-base-vqav2,brightness,0.5,40
+git-base-vqav2,clutter,0.45,40
+git-base-vqav2,occlusion,0.5,40
+Qwen2-VL-2B,base,0.975,40
+Qwen2-VL-2B,spatial,1.0,40
+Qwen2-VL-2B,brightness,1.0,40
+Qwen2-VL-2B,clutter,0.975,40
+Qwen2-VL-2B,occlusion,0.9,40

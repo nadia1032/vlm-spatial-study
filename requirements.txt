@@ -1,0 +1,15 @@
+# Install torch and torchvision for your device first (see README, "Installation").
+# Exact per-run package lists: results/runs/<run>/environment.txt
+torch==2.7.1
+torchvision==0.22.1
+transformers==4.55.4
+accelerate==1.15.0
+tokenizers==0.21.4
+safetensors==0.8.0
+huggingface-hub==0.36.2
+sentencepiece==0.2.3
+protobuf==6.33.6
+num2words==0.5.14
+matplotlib==3.11.2
+numpy>=2.4,<3
+Pillow>=12.1,<13

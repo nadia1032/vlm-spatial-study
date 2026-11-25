@@ -1,0 +1,37 @@
+{
+  "seed": 2026,
+  "images": 200,
+  "scene_groups": 40,
+  "pairs": 160,
+  "spatial_pairs": 40,
+  "invariant_pairs": 120,
+  "groups_per_relation": {
+    "left": 8,
+    "right": 8,
+    "above": 6,
+    "below": 6,
+    "inside": 6,
+    "outside": 6
+  },
+  "images_per_relation": {
+    "left": 40,
+    "right": 40,
+    "above": 30,
+    "below": 30,
+    "inside": 30,
+    "outside": 30
+  },
+  "images_per_variant": {
+    "base": 40,
+    "spatial": 40,
+    "brightness": 40,
+    "clutter": 40,
+    "occlusion": 40
+  },
+  "labels": {
+    "yes": 100,
+    "no": 100
+  },
+  "selection": "Fixed even group quotas; independent of model performance.",
+  "note": "Exact 200-image set. Relations have 40 or 30 images; labels are balanced within each relation. Review images before evaluation."
+}
